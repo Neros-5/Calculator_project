@@ -6,16 +6,16 @@ operator  = input("Enter operator: ")
 
 def add(number1, number2):
     result = number1 + number2
-    return result
+    print(result)
 def subtract(number1, number2):
     result = number1 - number2
-    return result
+    print(result)
 def divide(number1, number2):
     result = number1 / number2
-    return result
+    print(result)
 def multiply(number1,number2):
     result = number1 * number2
-    return result
+    print(result)
 # Check operator function
 if operator == '+':
     add(number1, number2)
@@ -24,4 +24,7 @@ elif operator == '-':
 elif operator == '/':
     divide(number1, number2)
 elif operator == 'X' or operator =='x' or operator =='*':
-    multiply(number1, number2)
+     multiply(number1, number2)
+else:
+    print('Invalid operator')
+
