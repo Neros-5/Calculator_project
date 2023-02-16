@@ -1,5 +1,5 @@
 # This is a Calculator project
-number1 = eval(input("enter ftrst number "))
+number1 = eval(input("enter first number "))
 number2 = eval(input("enter second number "))
 
 operator = input("Enter operator: ")
