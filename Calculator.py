@@ -25,7 +25,7 @@ def multiply(number1, number2):
     print(result)
 
 
-# Check operator function
+# Check operator functions
 if operator == '+':
     add(number1, number2)
 elif operator == '-':
