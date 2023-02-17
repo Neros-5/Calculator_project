@@ -35,4 +35,6 @@ elif operator == '/':
 elif operator == 'X' or operator == 'x' or operator == '*':
     multiply(number1, number2)
 else:
-    print('Invalid operator')
+    print("Invalid operator")
+
+# Calculator functons well
